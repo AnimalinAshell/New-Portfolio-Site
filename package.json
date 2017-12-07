@@ -6,8 +6,10 @@
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack",
-    "build:prod":"webpack -p",
-    "dev-server": "webpack-dev-server"
+    "build:prod": "webpack -p -env production",
+    "dev-server": "webpack-dev-server",
+    "start": "node server/server.js",
+    "heroku-postbuild":"yarn run build:prod"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -17,6 +19,7 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.4",
+    "express": "^4.16.2",
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "react-router-dom": "4.1.2",
