@@ -1,6 +1,9 @@
 const path = require('path');
 
-module.exports = {
+module.exports = (env) => {
+  const isProduction = env === 'production';
+
+  return {
   entry: './src/app.js',
   output: {
     path: path.join(__dirname, 'public'),
@@ -17,22 +20,22 @@ module.exports = {
         'style-loader',
         'css-loader'
       ]
+    }, {
+      test: /\.(jpg|png|svg)$/,
+      use: {
+        loader: "url-loader",
+        options: {
+          limit: 25000,
+        },
     },
-    {
-  test: /\.(jpg|png|svg)$/,
-  use: {
-    loader: "url-loader",
-    options: {
-      limit: 25000,
-    },
+    },], 
   },
-},
-    ], 
-
-  },
-  devtool: 'cheap-module-eval-source-map',
-  devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    historyApiFallback: true
+    devtool: isProduction ? 'source-map' : 'cheap-module-eval-source-map',
+    devServer: {
+      contentBase: path.join(__dirname, 'public'),
+      historyApiFallback: true
+    }
   }
-};
+}
+
+
