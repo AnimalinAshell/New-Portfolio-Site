@@ -24,15 +24,15 @@ module.exports = {
         options: {
           limit: 25000,
         },
-    },
-    },], 
+      },
+    }], 
   },
     devtool:'cheap-module-eval-source-map',
     devServer: {
       contentBase: path.join(__dirname, 'public'),
       historyApiFallback: true
     }
-  }
 }
+
 
 
