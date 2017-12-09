@@ -1,10 +1,6 @@
 {
   "name": "Portfolio",
   "version": "1.0.0",
-  "engines": {
-    "node": "6.11.3",
-    "npm":"5.6.0"
-  },
   "main": "index.js",
   "author": "Manuel Munoz",
   "license": "MIT",
@@ -36,5 +32,9 @@
   "devDependencies": {
     "file-loader": "^1.1.5",
     "url-loader": "^0.6.2"
-  }
+  },
+  "engines": {
+    "node": "6.11.3",
+    "npm":"5.6.0"
+  },
 }
