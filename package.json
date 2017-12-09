@@ -19,7 +19,6 @@
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.4",
     "express": "^4.16.2",
-    "grunt-cli": "^1.2.0",
     "node": "^9.2.0",
     "react": "15.6.1",
     "react-dom": "15.6.1",
