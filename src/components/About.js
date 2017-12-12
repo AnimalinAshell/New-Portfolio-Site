@@ -25,8 +25,9 @@ const main = {
 const title = {
 	textAlign:'center',
 	color:'white',
-	fontSize:'2.5em',
-	borderBottom:'solid 6.5px #3b4459'
+	fontSize:'4.5em',
+	borderBottom:'solid 6.5px #3b4459',
+	padding:".5em 0"
 };
 
 const selfie = {
@@ -53,7 +54,7 @@ const backButton = {
 
 const About = () => (
   	<section style={container}>
-		<header style={title} ><h1>About Me</h1></header>
+		<header><h1 style={title} >About Me</h1></header>
 		<div style={main}>
 			<img style={selfie} className="img-circle" src={Img7} alt="Picture of Manny Munoz"></img>
 

@@ -20,8 +20,9 @@ const container = {
 const title = {
 	textAlign:'center',
 	color:'white',
-	fontSize:'2.5em',
-	borderBottom:'solid 6.5px #3b4459'
+	fontSize:'4.5em',
+	borderBottom:'solid 6.5px #3b4459',
+	padding:".5em 0"
 };
 
 const main = {
@@ -60,7 +61,7 @@ const backButton = {
 
 const Projects = () => (
 	<section style={container}>
-		<header style={title}><h1>Projects</h1></header>
+		<header><h1 style={title} >Projects</h1></header>
 		<div style={main}>
 			<div style={cards}>
 				<a href={'http://bodyandsoulmasso.com'}>

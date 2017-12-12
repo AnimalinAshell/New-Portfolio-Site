@@ -16,8 +16,9 @@ const container = {
 const title = {
 	textAlign:'center',
 	color:'white',
-	fontSize:'2.5em',
-	borderBottom:'solid 6.5px #3b4459'
+	fontSize:'4.5em',
+	borderBottom:'solid 6.5px #3b4459',
+	padding:'.5em 0'
 };
 const info = {
 	color:'white',
@@ -50,7 +51,7 @@ const backButton = {
 
 const Contact = () => (
   <section style={container}>
-  	<header style={title}><h1>Contact</h1></header>
+  	<header><h1 style={title} >Contact</h1></header>
   	<div style={info}>
   		<p><i className="fa fa-thumb-tack" aria-hidden="true"></i>  Cleveland, Ohio</p>
 	  	<p><i className="fa fa-envelope-o" aria-hidden="true"></i>  munoz.jeffrey95@yahoo.com</p>
