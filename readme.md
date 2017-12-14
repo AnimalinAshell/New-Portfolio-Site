@@ -1,2 +1,2 @@
 # New-Portfolio-Site
-Updated version of my site using React, Webpack, ES6, CSS, Flexbox, JQuery
+Updated version of my site using React, Webpack, ES6, CSS, Flexbox, JQuery, Express, Node.js
