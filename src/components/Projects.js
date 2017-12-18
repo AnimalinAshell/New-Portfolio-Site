@@ -64,41 +64,41 @@ const Projects = () => (
 		<header><h1 style={title} >Projects</h1></header>
 		<div style={main}>
 			<div style={cards}>
-				<a href={'http://bodyandsoulmasso.com'}>
+				<a href={'http://bodyandsoulmasso.com'} target="_blank">
 					<img style={projects} src={Img1} alt="WP Site for local massage parlor"></img>
 				</a>
 				<h4><b>Massage Therapy WP Site</b></h4>
 				<p>First freelance project</p>
 			</div>
 			<div style={cards}>
-				<a href={'https://animalinashell.github.io/Mock-Development-Agency/'}>
+				<a href={'https://animalinashell.github.io/Mock-Development-Agency/'} target="_blank">
 			   		<img style={projects} src={Img2} alt="Mock web design agency"></img>
 				</a>	
 				<h4><b>Responsive Mock Agency</b></h4>
 				<p>Built from scratch using HTML, CSS</p>
 			</div>
 			<div style={cards}>
-				<a href={'https://codepen.io/lucasboy/details/mMGpYJ'}>
+				<a href={'https://codepen.io/lucasboy/details/mMGpYJ'} target="_blank">
 					<img style={projects} src={Img3} alt="Todo List Project"></img>
 				</a>
 				<h4><b>Classic Todo List</b></h4>
 				<p>First time using JQuery in a project</p>
 			</div>
 			<div style={cards}>
-				<a href={'https://codepen.io/lucasboy/details/xLapBm'}>
+				<a href={'https://codepen.io/lucasboy/details/xLapBm'} target="_blank">
 					<img style={projects} src={Img4} alt="Color Game"></img>
 				</a>
 				<h4><b>Color Game</b></h4>
 				<p>RGB game made with vanilla JS</p>
 			</div><div style={cards}>
-				<a href={'https://codepen.io/lucasboy/details/YxEmwE'}>
+				<a href={'https://codepen.io/lucasboy/details/YxEmwE'} target="_blank">
 					<img style={projects} src={Img5} alt="Weather App"></img>
 				</a>
 				<h4><b>Weather App</b></h4>
 				<p>JS and Api project from FreeCodeCamp</p>
 			</div>
 			<div style={cards}>
-				<a href={'https://codepen.io/lucasboy/details/QMqapb'}>
+				<a href={'https://codepen.io/lucasboy/details/QMqapb'} target="_blank">
 					<img style={projects} src={Img6} alt=" Random Quote Machine"></img>
 				</a>
 				<h4><b>Random Quote Machine</b></h4>

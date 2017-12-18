@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 // Styling
 document.body.style = 'background:indianred';
 
@@ -33,7 +34,7 @@ const subTitle = {
 	fontSize:'2.5em'
 };
 
-const links = {
+const link1 = {
 	marginTop:'0',
 	color:'white',
 	textAlign:'center',
@@ -43,23 +44,51 @@ const links = {
 	marginTop: '10px',
 	marginLeft: '35px',
 	width: '4.7em',
-	boxShadow:'0 4px 8px 0 rgba(0,0,0,0.2)'
+	boxShadow:'0 4px 8px 0 rgba(0,0,0,0.2)',
+	animationDelay:".4s"
 };
 
+const link2 = {
+	marginTop:'0',
+	color:'white',
+	textAlign:'center',
+	display:'inline-block',
+	border: "1.5px solid white",
+	padding: '7px',
+	marginTop: '10px',
+	marginLeft: '35px',
+	width: '4.7em',
+	boxShadow:'0 4px 8px 0 rgba(0,0,0,0.2)',
+	animationDelay:".7s"
+};
+
+const link3 = {
+	marginTop:'0',
+	color:'white',
+	textAlign:'center',
+	display:'inline-block',
+	border: "1.5px solid white",
+	padding: '7px',
+	marginTop: '10px',
+	marginLeft: '35px',
+	width: '4.7em',
+	boxShadow:'0 4px 8px 0 rgba(0,0,0,0.2)',
+	animationDelay:"1s"
+};
 
 
 const Landing = () => (
   <section style={container}>
-  	<div style={headers}>
+  	<div className="animated fadeInDownBig" style={headers}>
   		<h1 style={title}>Manuel Munoz</h1>
     	<h3 style={subTitle}>I'm a front-end developer.</h3>
   	</div>
     <div style={headers}>
-		<NavLink style={links} to="/about">About</NavLink>
+		<NavLink style={link1} className="animated fadeInRightBig" to="/about">About</NavLink>
 		<br />
-	    <NavLink style={links} to="/projects">Projects</NavLink>
+	    <NavLink style={link2} className="animated fadeInRightBig" to="/projects">Projects</NavLink>
 	    <br />
-	    <NavLink style={links} to="/contact">Contact</NavLink>
+	    <NavLink style={link3} className="animated fadeInRightBig" to="/contact">Contact</NavLink>
 	    <br />
 	</div>
   </section>

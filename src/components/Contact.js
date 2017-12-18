@@ -58,9 +58,9 @@ const Contact = () => (
 	  	<p><i className="fa fa-phone" aria-hidden="true"></i>  (216)-357-8651</p>
   	</div>
   	<div style={social}>
-  		<a style={addSpace} href="https://github.com/AnimalinAshell"><i className="fa fa-github" aria-hidden="true"></i></a>
-  		<a style={addSpace} href="https://www.linkedin.com/in/manny-munoz-107336b4/"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
-  		<a style={addSpace} href="https://www.freecodecamp.org/animalinashell"><i className="fa fa-free-code-camp" aria-hidden="true"></i></a>
+  		<a style={addSpace} href="https://github.com/AnimalinAshell" target="_blank" ><i className="fa fa-github" aria-hidden="true"></i></a>
+  		<a style={addSpace} href="https://www.linkedin.com/in/manny-munoz-107336b4/" target="_blank" ><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+  		<a style={addSpace} href="https://www.freecodecamp.org/animalinashell" target="_blank" ><i className="fa fa-free-code-camp" aria-hidden="true"></i></a>
   	</div>
   	<Link style={backButton} to="/">Go Back</Link>
   </section>
